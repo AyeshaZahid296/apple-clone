@@ -4,433 +4,222 @@
     font-family: Roboto, sans-serif;
     box-sizing: border-box;
 
-}
 
-.apple-nav {
-    background: rgba(250, 250, 252, 0.961);
-    text-decoration: none;
-    text-align: center;
-    justify-content: center;
-    padding: 10px;
-    width: 100%;
-    position: fixed;
-}
-
-header nav ul li {
-    display: inline;
-    margin-left: 40px;
-}
-
-.sub-nav {
-    text-align: center;
-    margin: 12px;
-    font-size: 14px;
-    display: inline-block;
-    padding: 16px 0;
-    width: 98%;
-}
-
-.col-flex {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.hero-bg {
-    /* background-image: url(image/cover/cover2.png); */
-    width: 90%;
-    background-repeat: no-repeat;
-    border: none;
-    background-size: contain;
-}
-
-.hero-div {
-    background: #F5F5F7;
-    padding: 33px;
-    width: 100%;
-    margin: 0px;
-}
-
-.hero-btn {
-
-    font-size: 18px;
-    color: #007AFF;
-    display: inline-block;
-    font-weight: 200;
-    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    border: solid 1px #007AFF;
-    border-radius: 50px;
-    padding: 10px 20px;
-    /* margin-left: 65px; */
-    justify-content: center;
-}
-
-/* for second div */
-
-#mac {
-    background-image: url("./image/macimage.jpg");
-    background-repeat: no-repeat;
-    color: black;
-    background-size: contain;
-    background-position: center;
-    width: 100%;
-    height: 90vh;
-
-}
-
-.box {
-    width: 100%;
-    height: 70vh;
-    margin-top: 12px;
-    background: #000;
-}
-
-.bg-silver {
-    background: #F5F5F7;
-}
-
-.btn-round {
-    border-radius: 50px;
-}
-
-/* for collection or small divs */
-.collection {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    color: #FFFFFF;
-    gap: 10px;
-    background-color: inherit;
-}
-
-.coll-content-top {
-    padding-top: 10%;
-    text-align: center;
-
-}
-
-#ipad {
-    background-image: url("./image/promo_ipadpro__ch217v9v7no2_large.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 80vh;
-    background-color: #000000;
-}
-
-#intelligence {
-    background-image: url("./image/promo_ai__couihqxznyvm_medium.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 80vh;
-    background-color: #f5f5f7;
-    color: #000000;
-}
-
-#vision {
-    background-image: url("./image/promo_apple_vision_pro__f4v4zp0sum2y_medium.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    justify-content: end;
-    padding: 0 10% 10% 10%;
-    width: 100%;
-    height: 80vh;
-    color: #000000;
-}
-
-.coll-items>i {
-    font-size: 40px;
-    font-weight: 500;
-}
-
-#watch {
-    background-image: url("./image/apple_watch_medium_2x.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 80vh;
-    color: #FFFFFF;
-}
-
-
-#card {
-    background-image: url("./image/promo_apple_card__5cm7draujpey_medium.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 80vh;
-    color: #000;
-}
-
-#trade {
-    background-image: url("./image//promo_iphone_tradein__bugw15ka691e_medium.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 80vh;
-    color: #000;
-}
-
-
-.coll-content-top {
-    padding-top: 5%;
-}
-
-#phones {
-    background-image: url(./image/promo_iphone_medium.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 100%;
-    height: 90vh;
-    color: #FFFFFF;
-}
-
-
-
-.gallery-cell {
-    width: 90%;
-    height: 90vh;
-    margin-right: 10px;
-    background: #8C8;
-}
-
-
-
-#croimg-1 {
-    background-image: url("image/thumb/friday-night-baseball/689x387.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-#croimg-2 {
-    background-image: url("image/thumb/lady-in-the-lake/689x387.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-#croimg-3 {
-    background-image: url("image/thumb/yo-gabba-gabba-land/689x387.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-#croimg-4 {
-    background-image: url("image/thumb/wemen-in-blue/689x387.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-#croimg-5 {
-    background-image: url("image/thumb/time-bandits/689x387.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-#croimg-6 {
-    background-image: url("image/thumb/leagues-cup-2024/689x387.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-#croimg-7 {
-    background-image: url("image/thumb/presumed-inoccent/689x387.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-#croimg-8 {
-    background-image: url("image/thumb/the-morning-show/689x387.jpgs");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-
-
-/* Footer Styling */
-.row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-.footer-wrapper {
-    background-color: #f5f5f7;
-    color: #86868b;
-    font-size: .7em;
-}
-
-.footer-wrapper ul {
-    list-style: none;
-    padding-bottom: 10px;
-    padding-inline-start: 0px;
-}
-
-.footer-wrapper ul a {
-    color: #515154;
-}
-
-.my-apple-wrapper {
-    padding-bottom: 15px;
-    margin-top: 10px;
-}
-
-.copyright {
-    margin-top: 15px;
-}
-
-.footer-country {
-    margin-top: 8px;
-}
-
-.footer-country {
-    display: flex;
-    justify-content: space-between;
-}
-
-.flag-wrapper {
-    display: inline-block;
-    vertical-align: middle;
-    padding-right: 5px;
-}
-
-.footer-country-name {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.footer-links-terms ul {
-    display: flex;
-}
-
-.footer-links-terms ul li {
-    padding: 0 10px;
-    border-right: 1px solid #d2d2d7;
-}
-
-.footer-links-terms ul li:first-child {
-    padding-left: 0;
-}
-
-.footer-links-terms ul li:last-child {
-    border-right: 0;
-}
-
-.footer-links-wrapper h3 {
-    font-size: 12px;
-    font-weight: 600;
-    color: #1d1d1f;
-}
-
-.footer-wrapper ul li {
-    padding: 4px 0;
-}
-
-.upper-text-container {
-    border-bottom: 1px solid #d2d2d7;
-    padding: 17px 0 10px;
-    margin-bottom: 20px;
-}
-
-.upper-text-container a {
-    color: #515154;
-}
-
-
-
-
-
-
-/* Footer responsive */
-
-@media (max-width: 833px) {
-    .collection {
-        grid-template-columns: 1fr 1fr;
+    a {
+        color: #06c;
     }
 
-    .footer-links-wrapper ul {
-        display: none;
+    img {
+        max-width: 100%;
     }
 
-    .footer-links-wrapper h3 {
-        padding: 10px 0;
-        border-bottom: 1px solid #ccc;
+    .white {
+        color: #fff;
     }
 
-    .footer-links-wrapper h3:after {
-        font-family: "FontAwesome";
-        content: "\f067";
-        padding-left: 10px;
-        position: absolute;
-        right: 25px;
+    .black {
+        color: #0f0f0f;
     }
 
-    .footer-links-wrapper h3.expanded:after {
-        font-family: "FontAwesome";
-        content: "\f107";
-        padding-left: 10px;
-        position: absolute;
-        right: 25px;
+    .grey {
+        color: #86868b;
+    }
+
+    .top-50 {
+        margin-top: 50px;
     }
 
 
-    /* Alert section */
+    /* Header Style */
 
-    .alert-section {
-        text-align: center;
-        padding: 20px;
+    .nav-wrapper {
+        background: rgba(0, 0, 0, 0.8);
+        font-size: 0.85em;
+        font-weight: 200;
     }
 
-    .alert-title {
-        font-weight: 600;
-        color: #1d1d1f;
-        padding: 10px;
+    .nav-wrapper ul li a {
+        color: #fff;
     }
 
-    .alert-text {
-        max-width: 90%;
-        margin: 0 auto;
+    .navbar-toggler {
+        color: #fff;
+    }
+
+    .nav-item {
+        text-align: left !important;
+        padding: 4px 0;
+        border-bottom: 1px solid #4b4b4b;
     }
 
 
-    .footer-links-wrapper ul {
-        display: none;
+
+
+    /* for main div */
+    .col-flex {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
-    .footer-links-wrapper h3 {
-        padding: 10px 0;
-        border-bottom: 1px solid #ccc;
+    .hero-bg {
+        width: 90%;
+        background-repeat: no-repeat;
+        border: none;
+        background-size: contain;
     }
 
-    .footer-links-wrapper h3:after {
-        font-family: "FontAwesome";
-        content: "\f067";
-        padding-left: 10px;
-        position: absolute;
-        right: 25px;
+    .hero-div {
+        background: #F5F5F7;
+        padding: 33px;
+        width: 100%;
+        margin: 0px;
     }
 
-    .gallery-cell {
+    .hero-btn {
+
+        font-size: 18px;
+        color: #007AFF;
+        display: inline-block;
+        font-weight: 200;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        border: solid 1px #007AFF;
+        border-radius: 50px;
+        padding: 10px 20px;
+        /* margin-left: 65px; */
+        justify-content: center;
+    }
+
+    /* for second div */
+
+    #mac {
+        background-image: url("./image/macimage.jpg");
+        background-repeat: no-repeat;
+        color: black;
+        background-size: contain;
+        background-position: center;
         width: 100%;
         height: 90vh;
-        margin-right: 10px;
+
+    }
+
+    .box {
+        width: 100%;
+        height: 70vh;
+        margin-top: 12px;
+        background: #000;
+    }
+
+    .bg-silver {
+        background: #F5F5F7;
+    }
+
+    .btn-round {
+        border-radius: 50px;
+    }
+
+    /* for collection or small divs */
+    .collection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: #FFFFFF;
+        gap: 10px;
+        background-color: inherit;
+    }
+
+    .coll-content-top {
+        padding-top: 10%;
+        text-align: center;
+
+    }
+
+    #ipad {
+        background-image: url("./image/promo_ipadpro__ch217v9v7no2_large.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 80vh;
+        background-color: #000000;
+    }
+
+    #intelligence {
+        background-image: url("./image/promo_ai__couihqxznyvm_medium.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 80vh;
+        background-color: #f5f5f7;
+        color: #000000;
+    }
+
+    #vision {
+        background-image: url("./image/promo_apple_vision_pro__f4v4zp0sum2y_medium.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: end;
+        padding: 0 10% 10% 10%;
+        width: 100%;
+        height: 80vh;
+        color: #000000;
+
+    }
+
+    .coll-items>i {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    #watch {
+        background-image: url("./image/apple_watch_medium_2x.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 80vh;
+        color: #FFFFFF;
     }
 
 
-    /* crousal stylig  */
+    #card {
+        background-image: url("./image/promo_apple_card__5cm7draujpey_medium.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 80vh;
+        color: #000;
+    }
+
+    #trade {
+        background-image: url("./image//promo_iphone_tradein__bugw15ka691e_medium.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 80vh;
+        color: #000;
+    }
+
+
+    .coll-content-top {
+        padding-top: 5%;
+    }
+
+    #phones {
+        background-image: url(./image/promo_iphone_medium.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 90vh;
+        color: #FFFFFF;
+    }
+
+
+
     .gallery-cell {
         width: 90%;
         height: 90vh;
@@ -438,112 +227,339 @@ header nav ul li {
         background: #8C8;
     }
 
+
+
     #croimg-1 {
-        background-image: url("image/thumb/friday-night-baseball/274x593\ \(3\).jpg");
+        background-image: url("image/thumb/friday-night-baseball/689x387.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     #croimg-2 {
-        background-image: url("image/thumb/lady-in-the-lake/274x593\ \(4\).jpg");
+        background-image: url("image/thumb/lady-in-the-lake/689x387.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     #croimg-3 {
-        background-image: url("image/thumb/yo-gabba-gabba-land/274x593\ \(5\).jpg");
+        background-image: url("image/thumb/yo-gabba-gabba-land/689x387.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     #croimg-4 {
-        background-image: url("image/thumb/wemen-in-blue/274x593.jpg");
+        background-image: url("image/thumb/wemen-in-blue/689x387.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     #croimg-5 {
-        background-image: url("image/thumb/time-bandits/274x593\ \(7\).jpg");
+        background-image: url("image/thumb/time-bandits/689x387.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     #croimg-6 {
-        background-image: url("image/thumb/leagues-cup-2024/274x593\ \(1\).jpg");
+        background-image: url("image/thumb/leagues-cup-2024/689x387.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     #croimg-7 {
-        background-image: url("image/thumb/presumed-inoccent/274x593\ \(6\).jpg");
+        background-image: url("image/thumb/presumed-inoccent/689x387.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     #croimg-8 {
-        background-image: url("image/thumb/the-morning-show/274x593\ \(8\).jpg");
+        background-image: url("image/thumb/the-morning-show/689x387.jpgs");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
-    /*Footer styling*/
-    .copyright {
+
+
+    /* Footer Styling */
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .footer-wrapper {
+        background-color: #f5f5f7;
+        color: #86868b;
+        font-size: .7em;
+    }
+
+    .footer-wrapper ul {
+        list-style: none;
+        padding-bottom: 10px;
+        padding-inline-start: 0px;
+    }
+
+    .footer-wrapper ul a {
+        color: #515154;
+    }
+
+    .my-apple-wrapper {
+        padding-bottom: 15px;
         margin-top: 10px;
+    }
+
+    .copyright {
+        margin-top: 15px;
     }
 
     .footer-country {
-        margin-top: 10px;
+        margin-top: 8px;
     }
 
-    .footer-links-terms {
-        margin-top: 10px;
-    }
-
-    .apple-nav ul {
+    .footer-country {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: space-between;
     }
 
-    header nav ul li {
-        margin-left: 0;
-        margin-bottom: 10px;
-        display: block;
+    .flag-wrapper {
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 5px;
     }
 
-    .sub-nav {
+    .footer-country-name {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .footer-links-terms ul {
+        display: flex;
+    }
+
+    .footer-links-terms ul li {
+        padding: 0 10px;
+        border-right: 1px solid #d2d2d7;
+    }
+
+    .footer-links-terms ul li:first-child {
+        padding-left: 0;
+    }
+
+    .footer-links-terms ul li:last-child {
+        border-right: 0;
+    }
+
+    .footer-links-wrapper h3 {
         font-size: 12px;
-        padding: 12px 0;
-        margin: 8px;
+        font-weight: 600;
+        color: #1d1d1f;
     }
 
-    .hero-div {
-        padding: 20px;
+    .footer-wrapper ul li {
+        padding: 4px 0;
     }
 
-    .hero-bg {
-        width: 100%;
+    .upper-text-container {
+        border-bottom: 1px solid #d2d2d7;
+        padding: 17px 0 10px;
+        margin-bottom: 20px;
     }
 
-    .hero-btn {
-        font-size: 16px;
-        padding: 8px 16px;
+    .upper-text-container a {
+        color: #515154;
     }
 
-    .bars {
-        display: flex;
-    }
 
-    .collection {
-        grid-template-columns: 1fr;
-    }
 
-}
+
+
+
+    /* Footer responsive */
+
+    @media (max-width: 833px) {
+        .collection {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .footer-links-wrapper ul {
+            display: none;
+        }
+
+        .footer-links-wrapper h3 {
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .footer-links-wrapper h3:after {
+            font-family: "FontAwesome";
+            content: "\f067";
+            padding-left: 10px;
+            position: absolute;
+            right: 25px;
+        }
+
+        .footer-links-wrapper h3.expanded:after {
+            font-family: "FontAwesome";
+            content: "\f107";
+            padding-left: 10px;
+            position: absolute;
+            right: 25px;
+        }
+
+
+        /* Alert section */
+
+        .alert-section {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .alert-title {
+            font-weight: 600;
+            color: #1d1d1f;
+            padding: 10px;
+        }
+
+        .alert-text {
+            max-width: 90%;
+            margin: 0 auto;
+        }
+
+
+        .footer-links-wrapper ul {
+            display: none;
+        }
+
+        .footer-links-wrapper h3 {
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .footer-links-wrapper h3:after {
+            font-family: "FontAwesome";
+            content: "\f067";
+            padding-left: 10px;
+            position: absolute;
+            right: 25px;
+        }
+
+        .gallery-cell {
+            width: 100%;
+            height: 90vh;
+            margin-right: 10px;
+        }
+
+
+        /* crousal stylig  */
+        .gallery-cell {
+            width: 90%;
+            height: 90vh;
+            margin-right: 10px;
+            background: #8C8;
+        }
+
+        #croimg-1 {
+            background-image: url("image/thumb/friday-night-baseball/274x593\ \(3\).jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #croimg-2 {
+            background-image: url("image/thumb/lady-in-the-lake/274x593\ \(4\).jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #croimg-3 {
+            background-image: url("image/thumb/yo-gabba-gabba-land/274x593\ \(5\).jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #croimg-4 {
+            background-image: url("image/thumb/wemen-in-blue/274x593.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #croimg-5 {
+            background-image: url("image/thumb/time-bandits/274x593\ \(7\).jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #croimg-6 {
+            background-image: url("image/thumb/leagues-cup-2024/274x593\ \(1\).jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #croimg-7 {
+            background-image: url("image/thumb/presumed-inoccent/274x593\ \(6\).jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #croimg-8 {
+            background-image: url("image/thumb/the-morning-show/274x593\ \(8\).jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        /*Footer styling*/
+        .copyright {
+            margin-top: 10px;
+        }
+
+        .footer-country {
+            margin-top: 10px;
+        }
+
+        .footer-links-terms {
+            margin-top: 10px;
+        }
+
+        /*Nav bar*/
+        .nav-item {
+            text-align: center !important;
+            padding: 0;
+            border-bottom: 0px;
+        }
+
+        /* for main div  */
+        .hero-div {
+            padding: 20px;
+        }
+
+        .hero-bg {
+            width: 100%;
+        }
+
+        .hero-btn {
+            font-size: 16px;
+            padding: 8px 16px;
+        }
+
+        .bars {
+            display: flex;
+        }
+
+        .collection {
+            grid-template-columns: 1fr;
+        }
+
+    }

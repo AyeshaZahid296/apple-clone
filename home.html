@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./image/favicon.ico" type="image/x-icon">
     <title>Apple</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,600,600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="    //cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
     <!-- Font Awesome - For icons -->
@@ -17,33 +20,55 @@
 </head>
 
 <body>
-    <!-- Navigation -->
-    <header>
-        <nav class="apple-nav">
-            <ul>
-                <li><i class="fa-brands fa-apple"></i></li>
-                <li>Store</li>
-                <li>Mac</li>
-                <li>iPad</li>
-                <li>iPhone</li>
-                <li>Watch</li>
-                <li>Vision</li>
-                <li>AirPods</li>
-                <li>Tv & Home</li>
-                <li>Entertainment</li>
-                <li>Accessories</li>
-                <li>Support</li>
-                <li><i class="fa-solid fa-magnifying-glass"></i>
-                </li>
-                <li><i class="fa-solid fa-lock"></i></li>
-            </ul>
-        </nav>
-        <div class="sub-nav">
-            <p>We’re donating $10 to the National Park Foundation for each purchase made at Apple using Apple Pay
-                through 8/25.<a href="#"> Shop now &gt;</a> </p>
+    <!-- Header navigation -->
+    <div class="nav-wrapper fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-toggleable-sm navbar-expand-md">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                    ☰
+                </button>
+                <a class="navbar-brand mx-auto" href="#"><img src="image/icons/logo-sm.png"></a>
 
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav nav-justified w-100 nav-fill">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Store</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/mac/">Mac</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">iPad</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">iPhone</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Watch</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Vision</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">AirPods</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">TV & Home</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Entertainment</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Accessories</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Support</a></li>
+
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="/search/"><img
+                                    src="./image/icons/search-icon-sm.png"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="/cart/"><img src="image/icons/cart-sm.png"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </header>
+    </div>
+
+    <!-- Alert Section -->
+    <section class="alert-section top-50">
+        <div class="container">
+            <div class="alert-text">
+
+                <p>We’re donating $10 to the National Park Foundation for each purchase made at Apple using
+                    Apple&nbsp;Pay through 8/25.<a href="#">Shop now </a> </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- main div -->
     <div class="hero-div col-flex">
         <img class="hero-bg" src="./image/cover/cover2.png" alt="">
         <input class="hero-btn" type="submit" value="Shop">
@@ -51,7 +76,7 @@
 
     <!-- 2nd main div -->
 
-    <div class="box bg-silver col-flex">
+    <div class="box bg-silver col-flex ">
         <div class="coll-content-top col-flex" id="mac">
             <h3>iPad Pro</h3>
             <p>Unbelievably thin. Incredibly powerfull.</p>
@@ -64,7 +89,7 @@
 
     <!-- 3nd main div -->
 
-    <div class="box col-flex ">
+    <div class="box col-flex mb-2">
         <div class="coll-content-top col-flex" id="phones">
             <h3>iPad Pro</h3>
             <p>Unbelievably thin. Incredibly powerfull.</p>
@@ -207,10 +232,11 @@
                     that is only
                     available if you select it at checkout in the U.S. for eligible products purchased at Apple
                     Store
-                    locations, <u>apple.com</u>,
+                    locations, <u class="black">apple.com</u>,
                     the Apple Store app, or by calling 1-800-MY-APPLE, and is subject to credit approval and credit
                     limit. See
-                    <u>support.apple.com/kb/HT211204</u> for more information about eligible products. APR ranges
+                    <u class="black">support.apple.com/kb/HT211204</u> for more information about eligible products. APR
+                    ranges
                     may
                     vary
                     based on when you
@@ -245,10 +271,12 @@
                     amount. ACMI financing is subject to change at any time for any reason, including but not
                     limited to
                     installment term
-                    lengths and eligible products. See <u>support.apple.com/kb/HT211204</u> for information about
+                    lengths and eligible products. See <u class="black">support.apple.com/kb/HT211204</u> for
+                    information about
                     upcoming
                     changes to ACMI
-                    financing. See the <u>Apple Card Customer Agreement</u> for more information about ACMI
+                    financing. See the <u class="black">Apple Card Customer Agreement</u> for more information about
+                    ACMI
                     financing.
                     Apple
                     Card is issued by
@@ -259,11 +287,11 @@
                     this offer or applying
                     for Apple Card. This offer cannot be combined with the Apple Employee Purchase Plan or business
                     loyalty pricing.
-                    Additional restrictions apply. View full terms and conditions of offer <u>here</u>.
+                    Additional restrictions apply. View full terms and conditions of offer <u class="black">here</u>.
                 </p>
                 <p>1. Through August 25, 2024, Apple will donate $10 for every purchase made in the U.S. using Apple
                     Pay
-                    on <u>apple.com</u>, through
+                    on <u class="black">apple.com</u>, through
                     the Apple Store app, or at an Apple Store. Donations are limited to a maximum of one million
                     dollars
                     ($1,000,000). The
@@ -300,7 +328,8 @@
                     Apple’s trade-in
                     partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.
                 </p>
-                <p>Available in the U.S. on <u>apple.com</u>, in the Apple Store app, and at Apple Stores.</p>
+                <p>Available in the U.S. on <u class="black">apple.com</u>, in the Apple Store app, and at Apple Stores.
+                </p>
                 <p>To access and use all Apple Card features and products available only to Apple Card users, you
                     must
                     add Apple Card to
@@ -315,7 +344,7 @@
                     about
                     Apple Card.</p>
                 <p>Learn more about how Apple Card applications are evaluated at
-                    <u>support.apple.com/kb/HT209218</u>.
+                    <u class="black">support.apple.com/kb/HT209218</u>.
                 </p>
                 <p>A subscription is required for Apple TV+.</p>
                 <p>A subscription is required for Apple Arcade, Apple Fitness+, and Apple Music.</p>
