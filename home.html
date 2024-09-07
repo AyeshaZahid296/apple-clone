@@ -22,13 +22,9 @@
 <body>
     <!-- Header navigation -->
     <div class="nav-wrapper fixed-top">
-        <div class="container">
-
+        <div class="container-fluid">
             <nav class="navbar navbar-toggleable-sm navbar-expand-md">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                    data-target=".navbar-collapse">
-                    ☰
-                </button>
+
                 <a class="navbar-brand mx-auto" href="#"><img src="image/icons/logo-sm.png"></a>
 
                 <div class="navbar-collapse collapse">
@@ -40,23 +36,44 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Watch</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Vision</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">AirPods</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">TV & Home</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Entertainment</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Accessories</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Support</a></li>
 
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="/search/"><img
-                                    src="./image/icons/search-icon-sm.png"></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="/cart/"><img src="image/icons/cart-sm.png"></a>
-                        </li>
+
                     </ul>
                 </div>
+
+                <a class="nav-link js-scroll-trigger" href="/search/"><img src="./image/icons/search-icon-sm.png"></a>
+
+                <a class="nav-link js-scroll-trigger" href="/cart/"><img src="image/icons/cart-sm.png"></a>
+
+                <button class="navbar-toggler navbar-toggler-right bars" type="button" data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                    ☰
+                </button>
             </nav>
         </div>
     </div>
+    <!-- nav bar ends here  -->
+    <!-- onclick pop up  -->
+    <div id="side-menu" class="side-menu">
+        <span class="close-btn">&times;</span>
+        <ul>
+            <li>Store</li>
+            <li>Mac</li>
+            <li>iPad</li>
+            <li>iPhone</li>
+            <li>Watch</li>
+            <li>Vision</li>
+            <li>AirPods</li>
+            <li>TV & Home</li>
+            <li>Entertainment</li>
+            <li>Accessories</li>
+            <li>Support</li>
+        </ul>
+    </div>
+    <!-- nav bar done  -->
 
     <!-- Alert Section -->
     <section class="alert-section top-50">
@@ -500,12 +517,12 @@
 
 
 
-
+    <script src="bars.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <script src="code.jss"></script>
+
 </body>
 
 </html>
