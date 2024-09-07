@@ -3,223 +3,527 @@
     padding: 0;
     font-family: Roboto, sans-serif;
     box-sizing: border-box;
+}
+
+a {
+    color: #06c;
+}
+
+img {
+    max-width: 100%;
+}
+
+.white {
+    color: #fff;
+}
+
+.black {
+    color: #0f0f0f;
+}
+
+.grey {
+    color: #86868b;
+}
+
+.top-50 {
+    margin-top: 50px;
+}
 
 
-    a {
-        color: #06c;
+/* Header Style */
+
+.nav-wrapper {
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 0.85em;
+    font-weight: 200;
+}
+
+.nav-wrapper ul li a {
+    color: #fff;
+}
+
+.navbar-toggler {
+    color: #fff;
+}
+
+.nav-item {
+    text-align: left !important;
+    padding: 4px 0;
+    border-bottom: 1px solid #4b4b4b;
+}
+
+
+
+
+/* for main div */
+.col-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-bg {
+    width: 90%;
+    background-repeat: no-repeat;
+    border: none;
+    background-size: contain;
+}
+
+.hero-div {
+    background: #F5F5F7;
+    padding: 33px;
+    width: 100%;
+    margin: 0px;
+}
+
+.hero-btn {
+
+    font-size: 18px;
+    color: #007AFF;
+    display: inline-block;
+    font-weight: 200;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    border: solid 1px #007AFF;
+    border-radius: 50px;
+    padding: 10px 20px;
+    /* margin-left: 65px; */
+    justify-content: center;
+}
+
+/* for second div */
+
+#mac {
+    background-image: url("./image/macimage.jpg");
+    background-repeat: no-repeat;
+    color: black;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+
+}
+
+.box {
+    width: 100%;
+    height: 70vh;
+    margin-top: 12px;
+    background: #000;
+}
+
+.bg-silver {
+    background: #F5F5F7;
+}
+
+.btn-round {
+    border-radius: 50px;
+}
+
+/* for collection or small divs */
+.collection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #FFFFFF;
+    gap: 10px;
+    background-color: inherit;
+}
+
+.coll-content-top {
+    padding-top: 10%;
+    text-align: center;
+
+}
+
+#ipad {
+    background-image: url("./image/promo_ipadpro__ch217v9v7no2_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    background-color: #000000;
+}
+
+#intelligence {
+    background-image: url("./image/promo_ai__couihqxznyvm_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    background-color: #f5f5f7;
+    color: #000000;
+}
+
+#vision {
+    background-image: url("./image/promo_apple_vision_pro__f4v4zp0sum2y_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: end;
+    padding: 0 10% 10% 10%;
+    width: 100%;
+    height: 80vh;
+    color: #000000;
+
+}
+
+.coll-items>i {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#watch {
+    background-image: url("./image/apple_watch_medium_2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    color: #FFFFFF;
+}
+
+
+#card {
+    background-image: url("./image/promo_apple_card__5cm7draujpey_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    color: #000;
+}
+
+#trade {
+    background-image: url("./image//promo_iphone_tradein__bugw15ka691e_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    color: #000;
+}
+
+
+.coll-content-top {
+    padding-top: 5%;
+}
+
+#phones {
+    background-image: url(./image/promo_iphone_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-size: cover;      */
+    /* do this in media query  */
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    color: #FFFFFF;
+}
+
+.gallery-cell {
+    width: 90%;
+    height: 90vh;
+    margin-right: 10px;
+    background: #8C8;
+}
+
+
+
+#croimg-1 {
+    background-image: url("image/thumb/friday-night-baseball/689x387.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#croimg-2 {
+    background-image: url("image/thumb/lady-in-the-lake/689x387.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#croimg-3 {
+    background-image: url("image/thumb/yo-gabba-gabba-land/689x387.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#croimg-4 {
+    background-image: url("image/thumb/wemen-in-blue/689x387.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#croimg-5 {
+    background-image: url("image/thumb/time-bandits/689x387.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#croimg-6 {
+    background-image: url("image/thumb/leagues-cup-2024/689x387.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#croimg-7 {
+    background-image: url("image/thumb/presumed-inoccent/689x387.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#croimg-8 {
+    background-image: url("image/thumb/the-morning-show/689x387.jpgs");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* Footer Styling */
+footer a {
+    text-decoration: none;
+    color: #0070c9;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f2f2f2;
+    font-family: calibri;
+    padding: 0 22px;
+    padding-bottom: 21px;
+    overflow: hidden;
+}
+
+.footer-content {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.footer-menu {
+    padding-top: 21px;
+    overflow: hidden;
+}
+
+.footer-col {
+    width: 20%;
+    float: left;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+footer h3 {
+    color: #333;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    background: #f2f2f2;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+
+.product-list {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.product-list li {
+    margin-bottom: 5px;
+    line-height: 1;
+}
+
+.product-list a {
+    color: #555;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.product-list a:hover {
+    color: #333;
+}
+
+input[type="checkbox"]:checked+.col-section .product-list {
+    transition: transform 300ms ease, -webkit-transform 300ms ease;
+    visibility: visible;
+    position: static;
+    transform: none;
+}
+
+input[type="checkbox"]:checked+.col-section h3::after {
+    transform: rotate(45deg) scale(1.08);
+}
+
+label {
+    position: relative;
+    width: 100%;
+}
+
+
+.footer-base {
+    padding-top: 34px;
+    padding-bottom: 21px;
+    color: #888;
+    font-size: 12px;
+}
+
+.footer-more-ways {
+    margin-bottom: 7px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.upper-text-container {
+    border-bottom: 1px solid #d2d2d7;
+    padding: 17px 0 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #555;
+}
+
+.upper-text-container a {
+    color: #515154;
+}
+
+/* responsive for 767*/
+
+@media only screen and (max-width: 767px) {
+
+    footer {
+        padding: 0 16px;
+        padding-bottom: 21px;
     }
 
-    img {
-        max-width: 100%;
-    }
-
-    .white {
-        color: #fff;
-    }
-
-    .black {
-        color: #0f0f0f;
-    }
-
-    .grey {
-        color: #86868b;
-    }
-
-    .top-50 {
-        margin-top: 50px;
-    }
-
-
-    /* Header Style */
-
-    .nav-wrapper {
-        background: rgba(0, 0, 0, 0.8);
-        font-size: 0.85em;
-        font-weight: 200;
-    }
-
-    .nav-wrapper ul li a {
-        color: #fff;
-    }
-
-    .navbar-toggler {
-        color: #fff;
-    }
-
-    .nav-item {
-        text-align: left !important;
-        padding: 4px 0;
-        border-bottom: 1px solid #4b4b4b;
-    }
-
-
-
-
-    /* for main div */
-    .col-flex {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .hero-bg {
-        width: 90%;
-        background-repeat: no-repeat;
-        border: none;
-        background-size: contain;
-    }
-
-    .hero-div {
-        background: #F5F5F7;
-        padding: 33px;
+    .footer-col {
         width: 100%;
-        margin: 0px;
     }
 
-    .hero-btn {
-
-        font-size: 18px;
-        color: #007AFF;
-        display: inline-block;
-        font-weight: 200;
-        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-        border: solid 1px #007AFF;
-        border-radius: 50px;
-        padding: 10px 20px;
-        /* margin-left: 65px; */
-        justify-content: center;
+    .item {
+        border-bottom: 1px solid #d6d6d6;
     }
 
-    /* for second div */
-
-    #mac {
-        background-image: url("./image/macimage.jpg");
-        background-repeat: no-repeat;
-        color: black;
-        background-size: contain;
-        background-position: center;
-        width: 100%;
-        height: 90vh;
-
+    footer h3 {
+        padding: 10px 0;
+        margin: 0;
+        cursor: pointer;
     }
 
-    .box {
-        width: 100%;
-        height: 70vh;
-        margin-top: 12px;
-        background: #000;
+    h3::after {
+        content: '+';
+        float: right;
+        font-size: 14px;
+        font-weight: bold;
+        position: absolute;
+        right: 10px;
+        margin-top: -2px;
+        margin-right: 8px;
+        transition: transform .3s ease
     }
 
-    .bg-silver {
-        background: #F5F5F7;
+    .product-list {
+        visibility: hidden;
+        position: absolute;
+        transform: translateY(-100px);
+        z-index: 1;
+        padding: 5px 0 16px 0;
     }
 
-    .btn-round {
-        border-radius: 50px;
+    .product-list li {
+        margin: 0;
     }
 
-    /* for collection or small divs */
-    .collection {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        color: #FFFFFF;
-        gap: 10px;
-        background-color: inherit;
+    .product-list a {
+        display: block;
+        padding: 6px 14px;
     }
 
-    .coll-content-top {
-        padding-top: 10%;
+    .footer-col {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .item-padding-top {
+        padding-top: 24px;
+    }
+}
+
+.footer-legal-copyright {
+    margin-right: 30px;
+    float: left;
+    margin-top: 3px;
+}
+
+.footer-legal-links {
+    float: left;
+}
+
+.footer-legal-links a {
+    border-right: 1px solid #d6d6d6;
+    margin-right: 10px;
+    padding-right: 12px;
+    display: inline-block;
+    margin-top: 3px;
+    white-space: nowrap;
+    color: #555;
+}
+
+.footer-legal-links a:last-child {
+    border-right: none;
+}
+
+.footer-legal-links a:hover {
+    color: #333;
+}
+
+
+/* responsive for 833*/
+
+@media (max-width: 833px) {
+
+
+
+    /* Alert section */
+
+    .alert-section {
         text-align: center;
-
+        padding: 20px;
     }
 
-    #ipad {
-        background-image: url("./image/promo_ipadpro__ch217v9v7no2_large.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        height: 80vh;
-        background-color: #000000;
+    .alert-title {
+        font-weight: 600;
+        color: #1d1d1f;
+        padding: 10px;
     }
 
-    #intelligence {
-        background-image: url("./image/promo_ai__couihqxznyvm_medium.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        height: 80vh;
-        background-color: #f5f5f7;
-        color: #000000;
-    }
-
-    #vision {
-        background-image: url("./image/promo_apple_vision_pro__f4v4zp0sum2y_medium.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        justify-content: end;
-        padding: 0 10% 10% 10%;
-        width: 100%;
-        height: 80vh;
-        color: #000000;
-
-    }
-
-    .coll-items>i {
-        font-size: 40px;
-        font-weight: 500;
-    }
-
-    #watch {
-        background-image: url("./image/apple_watch_medium_2x.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        height: 80vh;
-        color: #FFFFFF;
-    }
-
-
-    #card {
-        background-image: url("./image/promo_apple_card__5cm7draujpey_medium.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        height: 80vh;
-        color: #000;
-    }
-
-    #trade {
-        background-image: url("./image//promo_iphone_tradein__bugw15ka691e_medium.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        height: 80vh;
-        color: #000;
-    }
-
-
-    .coll-content-top {
-        padding-top: 5%;
-    }
-
-    #phones {
-        background-image: url(./image/promo_iphone_medium.jpg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        width: 100%;
-        height: 90vh;
-        color: #FFFFFF;
+    .alert-text {
+        max-width: 90%;
+        margin: 0 auto;
     }
 
 
 
+
+
+
+    /* crousal stylig  */
     .gallery-cell {
         width: 90%;
         height: 90vh;
@@ -227,339 +531,95 @@
         background: #8C8;
     }
 
-
-
     #croimg-1 {
-        background-image: url("image/thumb/friday-night-baseball/689x387.jpg");
+        background-image: url("image/thumb/friday-night-baseball/274x593\ \(3\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     #croimg-2 {
-        background-image: url("image/thumb/lady-in-the-lake/689x387.jpg");
+        background-image: url("image/thumb/lady-in-the-lake/274x593\ \(4\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     #croimg-3 {
-        background-image: url("image/thumb/yo-gabba-gabba-land/689x387.jpg");
+        background-image: url("image/thumb/yo-gabba-gabba-land/274x593\ \(5\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     #croimg-4 {
-        background-image: url("image/thumb/wemen-in-blue/689x387.jpg");
+        background-image: url("image/thumb/wemen-in-blue/274x593.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     #croimg-5 {
-        background-image: url("image/thumb/time-bandits/689x387.jpg");
+        background-image: url("image/thumb/time-bandits/274x593\ \(7\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     #croimg-6 {
-        background-image: url("image/thumb/leagues-cup-2024/689x387.jpg");
+        background-image: url("image/thumb/leagues-cup-2024/274x593\ \(1\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     #croimg-7 {
-        background-image: url("image/thumb/presumed-inoccent/689x387.jpg");
+        background-image: url("image/thumb/presumed-inoccent/274x593\ \(6\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
     #croimg-8 {
-        background-image: url("image/thumb/the-morning-show/689x387.jpgs");
+        background-image: url("image/thumb/the-morning-show/274x593\ \(8\).jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
+    /*Footer styling*/
 
 
-    /* Footer Styling */
-    .row {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+
+
+    /*Nav bar*/
+    .nav-item {
+        text-align: center !important;
+        padding: 0;
+        border-bottom: 0px;
     }
 
-    .footer-wrapper {
-        background-color: #f5f5f7;
-        color: #86868b;
-        font-size: .7em;
+    /* for main div  */
+    .hero-div {
+        padding: 20px;
     }
 
-    .footer-wrapper ul {
-        list-style: none;
-        padding-bottom: 10px;
-        padding-inline-start: 0px;
+    .hero-bg {
+        width: 100%;
     }
 
-    .footer-wrapper ul a {
-        color: #515154;
+    .hero-btn {
+        font-size: 16px;
+        padding: 8px 16px;
     }
 
-    .my-apple-wrapper {
-        padding-bottom: 15px;
-        margin-top: 10px;
-    }
-
-    .copyright {
-        margin-top: 15px;
-    }
-
-    .footer-country {
-        margin-top: 8px;
-    }
-
-    .footer-country {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .flag-wrapper {
-        display: inline-block;
-        vertical-align: middle;
-        padding-right: 5px;
-    }
-
-    .footer-country-name {
-        display: inline-block;
-        vertical-align: middle;
-    }
-
-    .footer-links-terms ul {
+    .bars {
         display: flex;
     }
 
-    .footer-links-terms ul li {
-        padding: 0 10px;
-        border-right: 1px solid #d2d2d7;
+    .collection {
+        grid-template-columns: 1fr;
     }
 
-    .footer-links-terms ul li:first-child {
-        padding-left: 0;
-    }
-
-    .footer-links-terms ul li:last-child {
-        border-right: 0;
-    }
-
-    .footer-links-wrapper h3 {
-        font-size: 12px;
-        font-weight: 600;
-        color: #1d1d1f;
-    }
-
-    .footer-wrapper ul li {
-        padding: 4px 0;
-    }
-
-    .upper-text-container {
-        border-bottom: 1px solid #d2d2d7;
-        padding: 17px 0 10px;
-        margin-bottom: 20px;
-    }
-
-    .upper-text-container a {
-        color: #515154;
-    }
-
-
-
-
-
-
-    /* Footer responsive */
-
-    @media (max-width: 833px) {
-        .collection {
-            grid-template-columns: 1fr 1fr;
-        }
-
-        .footer-links-wrapper ul {
-            display: none;
-        }
-
-        .footer-links-wrapper h3 {
-            padding: 10px 0;
-            border-bottom: 1px solid #ccc;
-        }
-
-        .footer-links-wrapper h3:after {
-            font-family: "FontAwesome";
-            content: "\f067";
-            padding-left: 10px;
-            position: absolute;
-            right: 25px;
-        }
-
-        .footer-links-wrapper h3.expanded:after {
-            font-family: "FontAwesome";
-            content: "\f107";
-            padding-left: 10px;
-            position: absolute;
-            right: 25px;
-        }
-
-
-        /* Alert section */
-
-        .alert-section {
-            text-align: center;
-            padding: 20px;
-        }
-
-        .alert-title {
-            font-weight: 600;
-            color: #1d1d1f;
-            padding: 10px;
-        }
-
-        .alert-text {
-            max-width: 90%;
-            margin: 0 auto;
-        }
-
-
-        .footer-links-wrapper ul {
-            display: none;
-        }
-
-        .footer-links-wrapper h3 {
-            padding: 10px 0;
-            border-bottom: 1px solid #ccc;
-        }
-
-        .footer-links-wrapper h3:after {
-            font-family: "FontAwesome";
-            content: "\f067";
-            padding-left: 10px;
-            position: absolute;
-            right: 25px;
-        }
-
-        .gallery-cell {
-            width: 100%;
-            height: 90vh;
-            margin-right: 10px;
-        }
-
-
-        /* crousal stylig  */
-        .gallery-cell {
-            width: 90%;
-            height: 90vh;
-            margin-right: 10px;
-            background: #8C8;
-        }
-
-        #croimg-1 {
-            background-image: url("image/thumb/friday-night-baseball/274x593\ \(3\).jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-        }
-
-        #croimg-2 {
-            background-image: url("image/thumb/lady-in-the-lake/274x593\ \(4\).jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-        }
-
-        #croimg-3 {
-            background-image: url("image/thumb/yo-gabba-gabba-land/274x593\ \(5\).jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-        }
-
-        #croimg-4 {
-            background-image: url("image/thumb/wemen-in-blue/274x593.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-        }
-
-        #croimg-5 {
-            background-image: url("image/thumb/time-bandits/274x593\ \(7\).jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-        }
-
-        #croimg-6 {
-            background-image: url("image/thumb/leagues-cup-2024/274x593\ \(1\).jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-        }
-
-        #croimg-7 {
-            background-image: url("image/thumb/presumed-inoccent/274x593\ \(6\).jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-        }
-
-        #croimg-8 {
-            background-image: url("image/thumb/the-morning-show/274x593\ \(8\).jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-        }
-
-        /*Footer styling*/
-        .copyright {
-            margin-top: 10px;
-        }
-
-        .footer-country {
-            margin-top: 10px;
-        }
-
-        .footer-links-terms {
-            margin-top: 10px;
-        }
-
-        /*Nav bar*/
-        .nav-item {
-            text-align: center !important;
-            padding: 0;
-            border-bottom: 0px;
-        }
-
-        /* for main div  */
-        .hero-div {
-            padding: 20px;
-        }
-
-        .hero-bg {
-            width: 100%;
-        }
-
-        .hero-btn {
-            font-size: 16px;
-            padding: 8px 16px;
-        }
-
-        .bars {
-            display: flex;
-        }
-
-        .collection {
-            grid-template-columns: 1fr;
-        }
-
-    }
+}
